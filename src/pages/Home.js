@@ -1,0 +1,23 @@
+import Trending from "../components/Trending";
+import JobsIntrested from "../components/JobsIntrested";
+import CompanyJobSwiper from "../components/CompanyJobSwiper";
+import Testimonial from "../components/Testimonial";
+import FooterNav from "../components/FooterNav";
+import DreamJob from "../components/DreamJob";
+import GetJobs from "../components/GetJobs";
+
+const Home = () => {
+  return (
+    <div className="overflow-x-hidden">
+      <DreamJob />
+      <Trending />
+      <JobsIntrested />
+      <CompanyJobSwiper />
+      <GetJobs/>
+      <Testimonial />
+      <FooterNav />
+    </div>
+  );
+};
+
+export default Home;

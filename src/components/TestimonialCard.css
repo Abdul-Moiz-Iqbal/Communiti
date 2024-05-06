@@ -1,0 +1,31 @@
+.slick-dots {
+  /* width: fit-content; */
+  height: fit-content;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 3rem;
+  top: 0;
+  list-style: none;
+  list-style-type: none;
+  /* right: 0; */
+  /* background-color: red;          if buttons not working in the testimonial compnent or near it, it may be due to the width or height of the dots so add the backrgound and check if the dots are above those buttons     */
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  /* width: 30px;
+        height: 30px; */
+  margin: 0px 0px;
+  padding: 0;
+  cursor: pointer;
+}
+.slick-dots li button:before {
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 10px;
+  /* line-height: 10px; */
+}
+
+.slick-dots li.slick-active button:before {
+  color: blue !important;
+}
