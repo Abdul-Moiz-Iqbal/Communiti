@@ -17,16 +17,16 @@ const Testimonial = () => {
         </p>
       </div>
 
-      <div className="w-[90%] mt-10  mx-auto flex flex-col md:flex-row ">
-        <div className="w-[30%] flex flex-col justify-center">
+      <div className="w-[90%] mt-10  mx-auto flex flex-col lg:flex-row ">
+        <div className="lg:w-[30%] flex flex-col justify-center">
           {/* <FaQuoteLeft /> */}
-          <img src={quote} className="rotate-180 w-fit" />
-          <h1 className="text-[3.4rem] font-extrabold ">
-            what they say <br></br> about Communiti
+          <img src={quote} className="hidden lg:block rotate-180 w-fit " />
+          <h1 className="text-5xl lg:text-[3.4rem] font-extrabold ">
+            what they say <br className="hidden lg:block"></br> about Communiti
           </h1>
           <p className="mt-3 text-xl ">More than 3000 users have been helped by World Online Course.</p>
         </div>
-        <div className="w-[70%] ">
+        <div className="lg:w-[70%] ">
             <TestimonialCard/>
         </div>
       </div>

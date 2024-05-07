@@ -65,7 +65,7 @@ const JobsIntrested = () => {
       {/* Job cards */}
       <div className="mt-10 grid grid-rows-1 md:grid-cols-3 gap-4">
         {jobs.map((job,index) => (
-            <JobCard key={index} title={job.title} years={job.years} address={job.address} company={job.company} time={job.time} logo={job.logo} />
+            <JobCard key={index} btn={index > 1?"bg-white border-blue-700  text-blue-700 hover:text-white ":"text-white"}  title={job.title} years={job.years} address={job.address} company={job.company} time={job.time} logo={job.logo} />
         ))}
       </div>
       <ButtonUi title={"View all jobs"} styles={'mt-14 mx-auto  md:ml-[43%] w-fit border-blue-600 bg-transparent text-blue-600 '}/>

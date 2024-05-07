@@ -1,6 +1,6 @@
 
 import { Button, Navbar } from "flowbite-react";
-import logo from "../resources/logo.png"
+import logo from "../resources/logoTransparent.png"
 import ButtonUi from "../Ui/ButtonUi";
 import { BsMenuButton, BsMenuUp } from "react-icons/bs";
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
       </Navbar.Brand>
       <div className="hidden md:flex gap-5 md:order-2">
         <ButtonUi title={'Log In'} styles={` border-blue-600 bg-transparent text-blue-600`}/>
-        <ButtonUi title={'Regester'} styles={` bg-blue-600 text-white  `}/>
+        <ButtonUi title={'Register'} styles={` bg-blue-600 text-white  `}/>
         
       </div>
       <div className=" hidden  md:flex text-xl   gap-14">

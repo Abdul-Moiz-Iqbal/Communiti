@@ -14,7 +14,7 @@ const JobCard = (props) => {
     <div className="p-4  border-2 border-gray-200 rounded-2xl">
       <div className="font-[600] flex justify-between">
         <h1 className="text-xl   w-[65%]"> {props.title}</h1>
-        <div className="mt-1 flex justify-center">
+        <div className="mt-1 flex justify-center ">
           <svg
             className="h-5 w-5 mt-[0.2rem] text-yellow-300"
             fill="currentColor"
@@ -52,7 +52,7 @@ const JobCard = (props) => {
         </div>
         <button
           
-          className={"px-6 py-[0.45rem] rounded-3xl  border-white text-white border bg-blue-500"}
+          className={`px-6 py-[0.45rem] rounded-3xl    border bg-blue-500 hover:bg-blue-700 ${props.btn}`}
         >Apply Now</button>
       </div>
     </div>
