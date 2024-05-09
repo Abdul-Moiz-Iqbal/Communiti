@@ -16,7 +16,6 @@ const DreamJob = () => {
   return (
     <div className="bg-slate-50 pb-10 ">
       <div className="w-[90%] mx-auto">
-        
         <div className="w-[85%] h-[30%]  pt-6 mx-auto flex flex-col md:flex-row md:items-center md:justify-between">
           <img src={rectangle} className="h-fit hidden md:block " />
           <div className="w-fit">
@@ -32,7 +31,8 @@ const DreamJob = () => {
               we have 150,500 live jobs
             </h6>
             <h1 className="mt-11 mb-5 md:mb-0 text-4xl md:text-[5.9rem] md:leading-[1.2] text-center font-bold md:font-semibold">
-              The home of your<br></br> dream job
+              The home of your
+              <br /> dream job
             </h1>
           </div>
           <Avatar
@@ -50,8 +50,8 @@ const DreamJob = () => {
           />
           <p className="mt-5 text-center text-gray-400 text-lg">
             when you need us for improve your business, then come with us to
-            help your business <br className="hidden md:block"></br> have reach it, you just sit and feel
-            that goal.
+            help your business <br className="hidden md:block"></br> have reach
+            it, you just sit and feel that goal.
           </p>
           <img src={LinkedIn} alt="Company" className=" h-8 w-8  " />
         </div>

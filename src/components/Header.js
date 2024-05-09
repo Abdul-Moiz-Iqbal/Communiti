@@ -5,7 +5,7 @@ import ButtonUi from "../Ui/ButtonUi";
 import { BsMenuButton, BsMenuUp } from "react-icons/bs";
 const Header = () => {
   return (
-    <div className="bg-slate-50">
+    <div className="bg-white">
     <Navbar fluid rounded className=" w-[90%] bg-inherit  mx-auto py-8 ">
       <Navbar.Brand href="https://flowbite-react.com">
         <img src={logo} className="mr-3 h-6 sm:h-9" alt="Communiti" />

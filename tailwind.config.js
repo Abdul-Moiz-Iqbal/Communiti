@@ -5,6 +5,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", flowbite.content()],
   theme: {
     extend: {
+      colors:{
+        textBlue:'#377DFF',
+        textgray:'#464646'
+      },
       fontFamily: {
         Catamaran: ["Catamaran", "sans-serif"],
         Roboto: ["Roboto", "sans-serif"],
