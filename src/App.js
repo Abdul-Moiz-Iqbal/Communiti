@@ -9,13 +9,13 @@ import DashBoard from './pages/DashBoard';
 import DashBoardHeader from './components/DashBoardComp/DashBoardHeader'
 function App() {
   return (
-    <div className="font-DMSans">
+    <div className="font-DMSans overflow-x-hidden">
       {/* <Header/> */}
      {/* <Home/> */}
     {/* <JobDescription/> */}
-    <SignUp/>
-    {/* <DashBoardHeader/> */}
-    {/* <DashBoard/> */}
+    {/* <SignUp/> */}
+    <DashBoardHeader/>
+    <DashBoard/>
     <FooterNav/>
     </div>
   );

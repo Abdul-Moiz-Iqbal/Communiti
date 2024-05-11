@@ -11,11 +11,11 @@ import Explore from "../components/DashBoardComp/Explore";
 const DashBoard = () => {
   return (
     <div className=" bg-[#F7F8FA]">
-      <div className="w-[85%] py-14 mx-auto bg-transparent  grid grid-cols-12 gap-x-5">
+      <div className="w-[85%]  py-14 mx-auto bg-transparent  grid md:grid-cols-12 gap-x-5 ">
         {/* col 1 */}
         <div className=" rounded-xl col-span-3 flex flex-row  ">
           
-          <div>
+          <div className="w-[86vw] md:w-[100%]"> 
             {/* profile Card  */}
             <Profile />
             {/* Menu  */}
@@ -23,14 +23,14 @@ const DashBoard = () => {
           </div>
         </div>
         {/* col2 */}
-        <div className=" col-span-6">
+        <div className="mt-5 md:mt-0 col-span-3 md:col-span-6">
             <RecommendedJobs/>  
             <Explore />
             <TopCompanies/>
             <Blog/>
         </div>
         {/* col 3 */}
-        <div className=" rounded-xl col-span-3 flex flex-col ">
+        <div className="mt-5 md:mt-0 rounded-xl col-span-3 flex flex-col ">
             <Subscribe/>
             <Courses/>
         </div>

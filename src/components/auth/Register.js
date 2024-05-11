@@ -12,7 +12,7 @@ import upload from "../../resources/upload-Outlined.png";
 
 const Register = () => {
   return (
-    <div className="w-[90%] md:w-[50%] md:px-0 mx-auto  my-24">
+    <div className="w-[90%] lg:w-[50%] md:px-0 mx-auto  my-24">
       <h1 className="text-center text-5xl tracking-wide font-semibold text-[#377DFF]">
         Let's Started
       </h1>
@@ -80,17 +80,17 @@ const Register = () => {
         <div className="mt-10">
           <label className="mb-2 text-lg font-[400]">Gender</label>
           <div className="flex justify-between">
-            <div className="flex justify-center items-center">
+            <div className="flex text-lg justify-center items-center">
               <input type="radio" id="html" name="fav_language" value="HTML" />
-              <label className="ml-3 text-lg font-[400] text-[#9D9D9D] ">Male</label>
+              <label className="ml-3  font-[400] text-[#9D9D9D] ">Male</label>
             </div>
             <div className="flex justify-center items-center">
               <input type="radio" id="html" name="fav_language" value="HTML" />
-              <label className="ml-3 text-lg font-[400] text-[#9D9D9D] ">Female</label>
+              <label className="ml-3  font-[400] text-[#9D9D9D] ">Female</label>
             </div>
             <div className="flex justify-center items-center">
               <input type="radio" id="html" name="fav_language" value="HTML" />
-              <label className="ml-3 mr-1 text-lg font-[400] text-[#9D9D9D] ">Prefer not to say</label>
+              <label className="ml-3 mr-1  font-[400] text-[#9D9D9D] ">Prefer not to say</label>
             </div>
           </div>
         </div>

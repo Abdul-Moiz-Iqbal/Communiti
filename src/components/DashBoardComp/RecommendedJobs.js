@@ -35,7 +35,7 @@ const RecommendedJobs = () => {
         <H2 text="Recommended Jobs"></H2>
         <BlueText text="View All" styles={""} />
       </div>
-      <div className="w-full flex justify-between gap-5">
+      <div className="w-full flex flex-col md:flex-row justify-between gap-5">
         {jobs.map((job) => (
           <RecommendedJobCard
             title={job.title}
