@@ -7,9 +7,13 @@ import RecommendedJobs from "../components/DashBoardComp/RecommendedJobs";
 import TopCompanies from "../components/DashBoardComp/TopCompanies";
 import Blog from "../components/DashBoardComp/Blog";
 import Explore from "../components/DashBoardComp/Explore";
+import DashBoardHeader from "../components/DashBoardComp/DashBoardHeader";
+import FooterNav from "../components/FooterNav";
 
 const DashBoard = () => {
   return (
+    <>
+    <DashBoardHeader/>
     <div className=" bg-[#F7F8FA]">
       <div className="w-[85%]  py-14 mx-auto bg-transparent  grid md:grid-cols-12 gap-x-5 ">
         {/* col 1 */}
@@ -36,6 +40,8 @@ const DashBoard = () => {
         </div>
       </div>
     </div>
+    <FooterNav/>
+    </>
   );
 };
 

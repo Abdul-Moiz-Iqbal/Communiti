@@ -7,16 +7,25 @@ import FooterNav from './components/FooterNav';
 import SignUp from './pages/SignUp';
 import DashBoard from './pages/DashBoard';
 import DashBoardHeader from './components/DashBoardComp/DashBoardHeader'
+import SideMenu from './components/Headers/SideMenu';
+
+//react router dom
+import { Outlet } from "react-router-dom";
+
 function App() {
+  
   return (
     <div className="font-DMSans overflow-x-hidden">
-      {/* <Header/> */}
+      
      {/* <Home/> */}
     {/* <JobDescription/> */}
     {/* <SignUp/> */}
-    <DashBoardHeader/>
-    <DashBoard/>
-    <FooterNav/>
+    
+    <Outlet />
+    
+    {/* <DashBoardHeader/>
+    <DashBoard/>*/}
+    {/* <FooterNav/>  */}
     </div>
   );
 }
