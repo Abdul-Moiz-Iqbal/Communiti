@@ -32,10 +32,12 @@ const Header = () => {
           <img src={logo} className="mr-3 h-6 sm:h-9" alt="Communiti" />
         </Link>
         <div className="hidden md:flex gap-5 md:order-2">
+          <Link to={'/login'}>
           <ButtonUi
             title={"Log In"}
             styles={` border-blue-600 bg-transparent text-blue-600`}
           />
+          </Link>
 
           <Link to={"/login"}>
             <ButtonUi title={"Register"} styles={` bg-blue-600 text-white  `} />

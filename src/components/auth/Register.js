@@ -9,6 +9,7 @@ import P from "../../Ui/Text/P";
 
 // resources
 import upload from "../../resources/upload-Outlined.png";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -117,10 +118,12 @@ const Register = () => {
         </P>
 
         {/* // button */}
+        <Link to={'/DashBoard'}>
         <ButtonUi
           styles={"mt-10 bg-textBlue border-white w-full text-white"}
           title="Submit"
         />
+        </Link>
       </div>
     </div>
   );
